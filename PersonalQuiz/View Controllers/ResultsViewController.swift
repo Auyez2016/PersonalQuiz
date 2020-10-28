@@ -8,11 +8,6 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
-    
-    // 1. Передать сюда массив с ответами
-    // 2. Определить наиболее часто встречающийся тип животного
-    // 3. Отобразить результаты на экране
-    // 4. Избавится от кнопки возврата на предыдущий экран
     @IBOutlet var animalLabel: [UILabel]!
     
     override func viewDidLoad() {
